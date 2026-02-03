@@ -106,9 +106,6 @@ import { ref, computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { countries } from '@/shared/constants/countries'
 import { showError } from '@/shared/utils/toast'
-import { ref, computed, watch } from 'vue';
-import { useI18n } from 'vue-i18n';
-import { countries } from '@/shared/constants/countries';
 import CameraCaptureDialog from './CameraCaptureDialog.vue';
 
 const props = defineProps({
